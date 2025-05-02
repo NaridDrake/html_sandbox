@@ -24,6 +24,10 @@ body {
 }
 
 .accordion-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
   max-width: 70rem;
   margin: 10rem auto;
 }
@@ -86,10 +90,17 @@ body {
   gap: 1.6rem;
   padding: 1.2rem 2.4rem;
   padding-bottom: 3.2rem;
+  font-size: 1.6rem;
 }
 
 .faq-text {
-  font-size: 1.6rem;
   grid-column: 1 / -1;
   line-height: 1.4;
+}
+
+.faq-text-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-left: 1.6rem;
 }
