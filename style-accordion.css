@@ -69,6 +69,8 @@ body {
   font-weight: 500;
   grid-column: 1;
   letter-spacing: -0.1rem;
+
+  transition: font-weight, 300ms;
 }
 
 .faq-btn-icon {
@@ -114,6 +116,10 @@ body {
 .open .faq-header {
   background-color: #99e9f2;
   color: #212529;
+}
+
+.open .faq-header-text {
+  font-weight: 700;
 }
 
 .open .faq-hidden-box {
