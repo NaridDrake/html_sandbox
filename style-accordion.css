@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  box-shadow: inset 0 0 0 2px #99e9f2;
+  box-shadow: inset 0 0 0 2px #18cdd3;
   border-radius: 8px;
   overflow: hidden;
 
@@ -114,7 +114,7 @@ body {
 }
 
 .open .faq-header {
-  background-color: #99e9f2;
+  background-color: #18cdd3;
   color: #212529;
 }
 
