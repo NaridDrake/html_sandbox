@@ -23,9 +23,7 @@ body {
   color: #f8f9fa;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #18cdd3;
-  font-size: 1.6rem;
+.container {
+  max-width: 80rem;
+  margin: 2rem auto;
 }
