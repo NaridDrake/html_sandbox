@@ -23,7 +23,14 @@ body {
   color: #f8f9fa;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #18cdd3;
+}
+
 .container {
-  max-width: 80rem;
+  max-width: 120rem;
   margin: 2rem auto;
 }
